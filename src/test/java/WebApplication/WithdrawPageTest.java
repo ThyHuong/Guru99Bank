@@ -33,6 +33,7 @@ public class WithdrawPageTest {
     public void afterMethod() {
         edgeDriver.quit();
     }
+
     @Test
     public void WD_TC_01() {
         System.out.println("WD_TC_01 - Không nhập Account No");
