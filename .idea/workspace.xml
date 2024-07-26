@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99c73e2c-c216-4b41-93bb-87c51eea95a8" name="Changes" comment="Add first files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hrEqe9WYnVsp8Zi0dE1nVndw3b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.DepositPageTest.DE_TC_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DepositPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WithdrawPageTest.WD_TC_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WithdrawPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Personal/Java/Guru99_Bank&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Guru99" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.WithdrawPageTest">
+    <configuration name="WithdrawPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99" />
+      <option name="MAIN_CLASS_NAME" value="WebApplication.WithdrawPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithdrawPageTest.DE_TC_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99" />
+      <option name="MAIN_CLASS_NAME" value="WebApplication.WithdrawPageTest" />
+      <option name="METHOD_NAME" value="DE_TC_01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithdrawPageTest.WD_TC_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Guru99" />
+      <option name="MAIN_CLASS_NAME" value="WebApplication.WithdrawPageTest" />
+      <option name="METHOD_NAME" value="WD_TC_01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.WithdrawPageTest" />
+        <item itemvalue="TestNG.WithdrawPageTest.WD_TC_01" />
+        <item itemvalue="TestNG.WithdrawPageTest.DE_TC_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-4caba194b151-9f4ef98c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c73e2c-c216-4b41-93bb-87c51eea95a8" name="Changes" comment="" />
+      <created>1718343993049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718343993049</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
