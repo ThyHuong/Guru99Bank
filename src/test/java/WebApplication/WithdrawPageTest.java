@@ -18,6 +18,10 @@ public class WithdrawPageTest {
         System.out.println("Tiền điều kiện:");
         System.out.println(" - Đã đăng nhập thành công role Manager\n - Giao diện Withdraw đang hiển thị\n");
     }
+    @AfterClass
+    public void afterClass() {
+        System.out.println();
+    }
 
     @BeforeMethod
     public void beforeMethod() {

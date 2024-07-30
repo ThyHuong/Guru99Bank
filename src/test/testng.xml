@@ -1,11 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="">
-    <test name="" preserve-order="true">
+<suite name="allTestcase">
+    <test name="web_application">
         <classes>
-            <class name=""/>
-            <class name=""/>
-            <class name=""/>
-            <class name=""/>
+            <class name="WebApplication.LoginPageTest"/>
+            <class name="WebApplication.WithdrawPageTest"/>
+            <class name="WebApplication.ChangePasswordPageTest"/>
+            <class name="WebApplication.FundTransferPageTest"/>
+        </classes>
+    </test>
+    <test name="software_interface">
+        <classes>
+            <class name="API.SoftwareInterfaceTest"/>
         </classes>
     </test>
 </suite>

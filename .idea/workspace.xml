@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c73e2c-c216-4b41-93bb-87c51eea95a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/SoftwareInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebApplication/LoginPageTest.java" afterDir="false" />
+    <list default="true" id="99c73e2c-c216-4b41-93bb-87c51eea95a8" name="Changes" comment="Add first API test case">
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebApplication/ChangePasswordPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebApplication/FundTransferPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API/ApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/msedgedriver/msedgedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebApplication/ChangePasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebApplication/ChangePasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebApplication/FundTransferPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebApplication/FundTransferPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebApplication/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebApplication/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API/SoftwareInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API/SoftwareInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebApplication/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebApplication/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebApplication/WithdrawPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebApplication/WithdrawPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -50,9 +55,13 @@
     "TestNG.ApiTest.API_TC_01.executor": "Run",
     "TestNG.ApiTest.API_TC_02.executor": "Run",
     "TestNG.ApiTest.executor": "Run",
+    "TestNG.ChangePasswordPageTest.executor": "Run",
+    "TestNG.D:/Personal/Java/Guru99_Bank/src/test/testng.xml.executor": "Run",
     "TestNG.DepositPageTest.DE_TC_01.executor": "Run",
     "TestNG.DepositPageTest.executor": "Run",
+    "TestNG.FundTransferPageTest.executor": "Run",
     "TestNG.LoginPageTest.LI_TC_01.executor": "Run",
+    "TestNG.LoginPageTest.executor": "Run",
     "TestNG.SoftwareInterfaceTest.API_TC_01.executor": "Run",
     "TestNG.SoftwareInterfaceTest.API_TC_02.executor": "Run",
     "TestNG.SoftwareInterfaceTest.API_TC_06.executor": "Run",
@@ -68,12 +77,16 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal\Java\Guru99_Bank\msedgedriver" />
+      <recent name="D:\Personal\Java\Guru99_Bank" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Guru99" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SoftwareInterfaceTest.API_TC_06">
-    <configuration name="APITest.API_TC_02" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SoftwareInterfaceTest">
+    <configuration name="ChangePasswordPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Guru99_Bank" />
       <extension name="coverage">
         <pattern>
@@ -82,9 +95,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebApplication" />
-      <option name="MAIN_CLASS_NAME" value="WebApplication.APITest" />
-      <option name="METHOD_NAME" value="API_TC_02" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="WebApplication.ChangePasswordPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundTransferPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebApplication" />
+      <option name="MAIN_CLASS_NAME" value="WebApplication.FundTransferPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Guru99_Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebApplication" />
+      <option name="MAIN_CLASS_NAME" value="WebApplication.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,42 +148,6 @@
       <option name="PACKAGE_NAME" value="API" />
       <option name="MAIN_CLASS_NAME" value="API.SoftwareInterfaceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftwareInterfaceTest.API_TC_01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Guru99_Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.SoftwareInterfaceTest" />
-      <option name="METHOD_NAME" value="API_TC_01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftwareInterfaceTest.API_TC_02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Guru99_Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.SoftwareInterfaceTest" />
-      <option name="METHOD_NAME" value="API_TC_02" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -164,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SoftwareInterfaceTest.API_TC_06" />
-        <item itemvalue="TestNG.SoftwareInterfaceTest.API_TC_02" />
         <item itemvalue="TestNG.SoftwareInterfaceTest" />
-        <item itemvalue="TestNG.SoftwareInterfaceTest.API_TC_01" />
-        <item itemvalue="TestNG.APITest.API_TC_02" />
+        <item itemvalue="TestNG.FundTransferPageTest" />
+        <item itemvalue="TestNG.ChangePasswordPageTest" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.SoftwareInterfaceTest.API_TC_06" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721960063824</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add first API test case">
+      <option name="closed" value="true" />
+      <created>1722004212389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722004212390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,16 +233,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Add first files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/target/test-classes/API/ApiTest.class</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add first API test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add first API test case" />
   </component>
 </project>
