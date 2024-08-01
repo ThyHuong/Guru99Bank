@@ -109,7 +109,7 @@ public class FundTransferPageTest {
     }
     @Test
     public void FT_TC_10() {
-        System.out.println("FT_TC_10 - Nhập Payers Account Number chứa ký tự đặc biệt");
+        System.out.println("FT_TC_10 - Nhập Amount chứa ký tự đặc biệt");
         String expectedMessage = "Special characters are not allowed";
         String amount = "200%$";
         String actualMessage = fundTransferPage.getAmountMessage(edgeDriver, amount);
